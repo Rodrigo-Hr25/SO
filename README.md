@@ -1,72 +1,115 @@
-SO
-📌 Project Description
-This project was developed as part of the Operating Systems (SO) course unit and has as its main objective the simulation of two essential components of an operating system:
+# SO
 
-Uniprocessor process scheduler – Implements scheduling algorithms that determine the order of process execution, considering different CPU management policies.
-Contiguous memory management – Simulates a memory allocation and deallocation system, exploring classic strategies (such as First-Fit, Best-Fit and Worst-Fit), in order to understand how real systems handle fragmentation and performance.
+## 📌 Descrição do Projeto
 
-The project was developed in C++, following good programming practices and with support for Doxygen for automatic documentation generation.
+Este projeto foi desenvolvido no âmbito da unidade curricular de **Sistemas Operativos (SO)** e tem como principal objetivo a **simulação de dois componentes essenciais de um sistema operativo**:
 
-⚙️ Prerequisites
-On Ubuntu, install the following packages before compiling:
+1. **Escalonador de processos em uniprocessador** – Implementa algoritmos de escalonamento que determinam a ordem de execução dos processos, considerando diferentes políticas de gestão de CPU.
+2. **Gestão de memória contígua** – Simula um sistema de alocação e libertação de memória, explorando estratégias clássicas (como *First-Fit*, *Best-Fit* e *Worst-Fit*), de forma a compreender como os sistemas reais lidam com a fragmentação e desempenho.
+
+O projeto foi desenvolvido em **C++**, seguindo boas práticas de programação e com suporte a **Doxygen** para geração automática de documentação.
+
+---
+
+## ⚙️ Pré-requisitos
+
+Em Ubuntu, instale os seguintes pacotes antes de compilar:
+
+```bash
 sudo apt install build-essential cmake doxygen git
+```
 
-On other Linux distributions, install the equivalent packages.
+Em outras distribuições Linux, instale os pacotes equivalentes.
 
-📥 Clone the Repository
+---
+
+## 📥 Clonar o Repositório
+
+```bash
 git clone git@github.com:ua-so-fso/«your-project».git
+```
 
+---
 
-📄 Documentation Generation
-The code is documented in Doxygen. To generate the HTML documentation:
+## 📄 Geração de Documentação
+
+O código está documentado em **Doxygen**. Para gerar a documentação HTML:
+
+```bash
 cd «your-project»/doc
 doxygen
 firefox html/index.html &
+```
 
+---
 
-🛠️ Compilation
-In the project root, create the build folder and use CMake:
+## 🛠️ Compilação
+
+Na raiz do projeto, crie a pasta `build` e utilize o **CMake**:
+
+```bash
 mkdir build
 cd build
 cmake ../src
 make
+```
 
-Alternatively, use Ninja:
+Ou, alternativamente, use o **Ninja**:
+
+```bash
 mkdir build
 cd build
 cmake -G Ninja ../src
 ninja
+```
 
+---
 
-🔧 Git Configuration
-Set your name and email for commits:
-git config user.name "Your Name"
-git config user.email "your.email@com"
+## 🔧 Configuração do Git
 
-Or globally:
-git config --global user.name "Your Name"
-git config --global user.email "your.email@com"
+Defina o seu nome e email para commits:
 
+```bash
+git config user.name "O Seu Nome"
+git config user.email "o.seu@email.com"
+```
 
-🧪 Tests
-After compilation, the binary will be generated in:
+Ou de forma global:
+
+```bash
+git config --global user.name "O Seu Nome"
+git config --global user.email "o.seu@email.com"
+```
+
+---
+
+## 🧪 Testes
+
+Após a compilação, o binário será gerado em:
+
+```
 «your-project»/bin
+```
 
-You can use the standard test program (main.cpp) or create new test files, remembering to include them in CMakeLists.txt.
+Pode utilizar o programa de teste padrão (`main.cpp`) ou criar novos ficheiros de teste, lembrando-se de os incluir no `CMakeLists.txt`.
 
-🚀 Main Demonstrated Skills
+---
 
-Programming in C++.
-Implementation of CPU scheduling algorithms.
-Implementation of memory allocation systems.
-Use of CMake for project management and compilation.
-Automatic documentation generation with Doxygen.
-Code management with Git/GitHub.
+## 🚀 Principais Competências Demonstradas
 
+* Programação em **C++**.
+* Implementação de **algoritmos de escalonamento** de CPU.
+* Implementação de **sistemas de alocação de memória**.
+* Utilização de **CMake** para gestão e compilação do projeto.
+* Geração de documentação automática com **Doxygen**.
+* Gestão de código com **Git/GitHub**.
 
-📚 Learning and Objective
-This project allows for a deep understanding of how operating systems manage processes and memory, offering a practical view of the classic strategies taught in theory. It combines fundamental concepts of resource management, efficiency, and performance in a simulated environment, preparing for challenges in low-level systems development and software engineering.# somm24nm
-SO/FSO  Simulating a uniprocessor scheduler, contiguous memory allocation system
+---
+
+## 📚 Aprendizagem e Objetivo
+
+Este projeto permite compreender em profundidade **como os sistemas operativos gerem processos e memória**, oferecendo uma visão prática das estratégias clássicas ensinadas na teoria. Ele combina conceitos fundamentais de **gestão de recursos, eficiência e desempenho** num ambiente simulado, preparando para desafios em desenvolvimento de sistemas de baixo nível e engenharia de software.
+
 ******
 ******
 ## Prerequisites
