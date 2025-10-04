@@ -1,19 +1,19 @@
 # SO
 
-## 📌 Descrição do Projeto
+## 📌 Project Description
 
-Este projeto foi desenvolvido no âmbito da unidade curricular de **Sistemas Operativos (SO)** e tem como principal objetivo a **simulação de dois componentes essenciais de um sistema operativo**:
+This project was developed as part of the Operating Systems (SO/FSO) course unit and aims to simulate two essential components of an operating system:
 
-1. **Escalonador de processos em uniprocessador** – Implementa algoritmos de escalonamento que determinam a ordem de execução dos processos, considerando diferentes políticas de gestão de CPU.
-2. **Gestão de memória contígua** – Simula um sistema de alocação e libertação de memória, explorando estratégias clássicas (como *First-Fit*, *Best-Fit* e *Worst-Fit*), de forma a compreender como os sistemas reais lidam com a fragmentação e desempenho.
+- **Uniprocessor Process Scheduler** – Implements scheduling algorithms that determine the execution order of processes, considering different CPU management policies.  
+- **Contiguous Memory Management** – Simulates a memory allocation and deallocation system, exploring classical strategies (such as First-Fit, Best-Fit, and Worst-Fit) to understand how real systems deal with fragmentation and performance.
 
-O projeto foi desenvolvido em **C++**, seguindo boas práticas de programação e com suporte a **Doxygen** para geração automática de documentação.
+The project was developed in **C++**, following best programming practices and with support for **Doxygen** for automatic documentation generation.
 
 ---
 
-## ⚙️ Pré-requisitos
+## ⚙️ Prerequisites
 
-Em Ubuntu, instale os seguintes pacotes antes de compilar:
+On **Ubuntu**, install the following packages before compiling:
 
 ```bash
 sudo apt install build-essential cmake doxygen git
@@ -23,7 +23,7 @@ Em outras distribuições Linux, instale os pacotes equivalentes.
 
 ---
 
-## 📥 Clonar o Repositório
+## 📥 Clone the Repository
 
 ```bash
 git clone git@github.com:ua-so-fso/«your-project».git
@@ -31,9 +31,9 @@ git clone git@github.com:ua-so-fso/«your-project».git
 
 ---
 
-## 📄 Geração de Documentação
+## 📄 Documentation Generation
 
-O código está documentado em **Doxygen**. Para gerar a documentação HTML:
+The code is documented with Doxygen. To generate HTML documentation:
 
 ```bash
 cd «your-project»/doc
@@ -43,9 +43,9 @@ firefox html/index.html &
 
 ---
 
-## 🛠️ Compilação
+## 🛠️ Compilation
 
-Na raiz do projeto, crie a pasta `build` e utilize o **CMake**:
+In the project root, create the build folder and use CMake:
 
 ```bash
 mkdir build
@@ -54,7 +54,7 @@ cmake ../src
 make
 ```
 
-Ou, alternativamente, use o **Ninja**:
+Or alternatively, use Ninja:
 
 ```bash
 mkdir build
@@ -65,50 +65,52 @@ ninja
 
 ---
 
-## 🔧 Configuração do Git
+## 🔧 Git Configuration
 
-Defina o seu nome e email para commits:
+Set your name and email for commits:
 
 ```bash
-git config user.name "O Seu Nome"
-git config user.email "o.seu@email.com"
+git config user.name "Your Name"
+git config user.email "your@email.com"
 ```
 
-Ou de forma global:
+Or globally:
 
 ```bash
-git config --global user.name "O Seu Nome"
-git config --global user.email "o.seu@email.com"
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
 ```
 
 ---
 
-## 🧪 Testes
+## 🧪 Tests
 
-Após a compilação, o binário será gerado em:
+After compilation, the binary will be generated in:
 
 ```
 «your-project»/bin
 ```
 
-Pode utilizar o programa de teste padrão (`main.cpp`) ou criar novos ficheiros de teste, lembrando-se de os incluir no `CMakeLists.txt`.
+You can use the default test program (main.cpp) or create new test files, remembering to include them in the CMakeLists.txt.
 
 ---
 
-## 🚀 Principais Competências Demonstradas
+## 🚀 Main Skills Demonstrated
 
-* Programação em **C++**.
-* Implementação de **algoritmos de escalonamento** de CPU.
-* Implementação de **sistemas de alocação de memória**.
-* Utilização de **CMake** para gestão e compilação do projeto.
-* Geração de documentação automática com **Doxygen**.
-* Gestão de código com **Git/GitHub**.
+* Programming in C++
+* Implementation of CPU scheduling algorithms
+* Implementation of memory allocation systems
+* Project build and management with CMake
+* Automatic documentation generation with Doxygen
+* Version control with Git/GitHub
 
 ---
 
-## 📚 Aprendizagem e Objetivo
+## 📚 Learning Outcomes and Goal
 
-Este projeto permite compreender em profundidade **como os sistemas operativos gerem processos e memória**, oferecendo uma visão prática das estratégias clássicas ensinadas na teoria. Ele combina conceitos fundamentais de **gestão de recursos, eficiência e desempenho** num ambiente simulado, preparando para desafios em desenvolvimento de sistemas de baixo nível e engenharia de software.
+This project provides a deeper understanding of how operating systems manage processes and memory, offering a practical view of classical strategies taught in theory.
+
+It combines fundamental concepts of resource management, efficiency, and performance in a simulated environment, preparing students for challenges in low-level systems development and software engineering.
 
 ******
 ******
