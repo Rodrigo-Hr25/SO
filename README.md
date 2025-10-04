@@ -19,14 +19,14 @@ On **Ubuntu**, install the following packages before compiling:
 sudo apt install build-essential cmake doxygen git
 ```
 
-Em outras distribuições Linux, instale os pacotes equivalentes.
+On other Linux distributions, install the equivalent packages.
 
 ---
 
 ## 📥 Clone the Repository
 
 ```bash
-git clone git@github.com:ua-so-fso/«your-project».git
+git clone https://github.com/Rodrigo-Hr25/SO.git
 ```
 
 ---
