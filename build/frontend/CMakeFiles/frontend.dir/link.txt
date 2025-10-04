@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/rodrigomiguel/Desktop/CODE/UA/SO/Project/somm24nm-so-g13/lib/libfrontend.a CMakeFiles/frontend.dir/sim.cpp.o CMakeFiles/frontend.dir/jdt.cpp.o CMakeFiles/frontend.dir/pct.cpp.o CMakeFiles/frontend.dir/mem.cpp.o CMakeFiles/frontend.dir/rdy.cpp.o CMakeFiles/frontend.dir/swp.cpp.o
+/usr/bin/ranlib /home/rodrigomiguel/Desktop/CODE/UA/SO/Project/somm24nm-so-g13/lib/libfrontend.a

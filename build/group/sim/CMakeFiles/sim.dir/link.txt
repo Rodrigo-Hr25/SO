@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/rodrigomiguel/Desktop/CODE/UA/SO/Project/somm24nm-so-g13/lib/libsim.a CMakeFiles/sim.dir/sim_init.cpp.o CMakeFiles/sim.dir/sim_term.cpp.o CMakeFiles/sim.dir/sim_print.cpp.o CMakeFiles/sim.dir/sim_config.cpp.o CMakeFiles/sim.dir/sim_step.cpp.o CMakeFiles/sim.dir/sim_run.cpp.o
+/usr/bin/ranlib /home/rodrigomiguel/Desktop/CODE/UA/SO/Project/somm24nm-so-g13/lib/libsim.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/rodrigomiguel/Desktop/CODE/UA/SO/Project/somm24nm-so-g13/lib/librdy.a CMakeFiles/rdy.dir/rdy_init.cpp.o CMakeFiles/rdy.dir/rdy_term.cpp.o CMakeFiles/rdy.dir/rdy_print.cpp.o CMakeFiles/rdy.dir/rdy_insert.cpp.o CMakeFiles/rdy.dir/rdy_fetch.cpp.o
+/usr/bin/ranlib /home/rodrigomiguel/Desktop/CODE/UA/SO/Project/somm24nm-so-g13/lib/librdy.a
