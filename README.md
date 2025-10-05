@@ -2,7 +2,7 @@
 
 ## 📌 Project Description
 
-This project was developed as part of the Operating Systems (SO/FSO) course unit and aims to simulate two essential components of an operating system:
+This project was developed as part of the Operating Systems (SO) course unit and aims to simulate two essential components of an operating system:
 
 - **Uniprocessor Process Scheduler** – Implements scheduling algorithms that determine the execution order of processes, considering different CPU management policies.  
 - **Contiguous Memory Management** – Simulates a memory allocation and deallocation system, exploring classical strategies (such as First-Fit, Best-Fit, and Worst-Fit) to understand how real systems deal with fragmentation and performance.
